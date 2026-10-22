@@ -43,3 +43,19 @@
 - Findings resolved: B110 and B311.
 - Verification date: 22 October 2026.
 
+
+## Pylint Verification
+
+- Original score: 6.25/10
+- Updated score: 9.81/10 or higher
+- Issues addressed: Mutable default argument, missing docstrings,
+  function naming, unused argument, file handling, string formatting,
+  and trailing whitespace.
+- Verification report: pylint_after_2.txt
+
+## Flake8 Verification
+
+- Original report: `flake8_before.txt`
+- Final report: `flake8_after.txt`
+- Result: No formatting violations reported.
+- Fixes included blank-line spacing and the newline at the end of the file.
